@@ -1,0 +1,77 @@
+.comment::before {
+  
+  height: 40px;
+  width: 200px;
+  content: "❤️";
+
+}
+.first-text::first-letter {
+font-size: 24px;
+color: blueviolet;
+background: #cc56e6;
+}
+
+.list::before {
+  content: "✤";
+}
+.list {
+  list-style: none;
+}
+.web-line a {
+  text-decoration: none;
+  color: rgb(59, 55, 55);
+}
+
+.web-line:after {
+  display: block;
+  content: 'hello';
+  font-size: 5px;
+  height: 5px;
+ background: #d41336;
+  width: 37px;
+  color: aliceblue;
+}
+
+button:hover {
+  color: #1a521d;
+  background: #ff9142;
+  transition: 0.5s;
+  font-size: 1.5rem;
+}
+
+h2::first-letter {
+  color: rgb(18, 81, 81);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+p {
+  font-size: 12px;
+}
+.second-text::first-line {
+  color: #ff9142;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+
+.third-text::first-line {
+  color: #1cdd42;
+  font-weight: 600;
+   font-size: 12px;
+}
+.fourth-text::first-line {
+  color: #cb55c5;
+  font-weight: 600;
+   font-size: 12px;
+}
+
+.list-second {
+  list-style: none;
+}
+
+.list-second li::before {
+  content: "😋";
+  margin-right: 8px;
+  font-size: 10px;
+}
